@@ -1,21 +1,31 @@
+html {
+  font-size: 16px; /* Define a base */
+}
+
 body {
   margin: 0;
-  background-color: rgb(60, 27, 50);
+  background-color: rgb(27, 27, 50);
   text-align: center;
   color: #fff;
+  font-size: 1.125rem; /* 18px */
+  -webkit-font-smoothing: antialiased;
 }
 
 button {
   cursor: pointer;
   background-color: rgb(59, 59, 79);
-  border: 3px solid white;
+  border: 0.1875rem solid white; /* 3px */
   color: white;
+  font-size: 1rem; /* 16px */
+  padding: 0.5rem 1rem;
 }
 
 input {
-  background-color: rgb(30, 10, 35);
+  background-color: rgb(10, 10, 35);
   color: white;
-  border: 3px solid rgb(59, 59, 79);
+  border: 0.0625rem solid rgb(59, 59, 79); /* 1px */
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 
 .bold {
