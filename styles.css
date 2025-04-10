@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(27, 27, 50);
+  background-color: rgb(60, 27, 50);
   text-align: center;
   color: #fff;
 }
@@ -13,9 +13,9 @@ button {
 }
 
 input {
-  background-color: rgb(10, 10, 35);
+  background-color: rgb(30, 10, 35);
   color: white;
-  border: 1px solid rgb(59, 59, 79);
+  border: 3px solid rgb(59, 59, 79);
 }
 
 .bold {
